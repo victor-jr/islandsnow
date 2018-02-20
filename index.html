@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div class="ui borderless topmenu menu">
+  <div class="ui container">
+    <a class="fitted item"><i class="facebook icon"></i></a>
+    <a class="fitted item"><i class="twitter icon"></i></a>
+    <a class="fitted item"><i class="pinterest icon"></i></a>
+    <a class="fitted item"><i class="instagram icon"></i></a>
+    <a class="fitted right item"><i class="ui home icon"></i></a>
+    <a class="fitted item"><i class="ui search icon"></i></a>
+    <a class="fitted item"><i class="users icon"></i></a>
+    <div class="ui dropdown fitted item">
+      <div class="text">MY CART<i class="add to cart icon"></i>0</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="fitted item">item 1</a>
+        <a class="fitted item">item 2</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
+</html>
